@@ -1,7 +1,7 @@
 <template>
   <section class="section-container">
     <div class="main-container waitroom-container" :class="{'scale-down':isMenuOpen}">
-      <p class="waiting">Waiting for friends to join the party<span>.</span><span>.</span><span>.</span></p>
+      <p class="waiting">2 Player needed. Waiting for a friends to join<span>.</span><span>.</span><span>.</span></p>
       <div class="joke-box" id="animate-area">
         <p v-html="joke"  @click="killInterval"></p>
       </div>
